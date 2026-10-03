@@ -1,0 +1,6 @@
+services:
+  ninja:
+    image: scireum/s3-ninja:latest
+    restart: always
+    ports:
+      - "9445:9000"
